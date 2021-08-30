@@ -1,0 +1,48 @@
+table,
+th,
+td {
+  border: 1px solid black;
+  text-align: center;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+table {
+  width: 90vw;
+}
+
+tr:nth-child(odd) {
+  background-color: rgb(205, 231, 188);
+}
+
+td {
+  padding: 15px;
+}
+
+tr:hover {
+  filter: brightness(70%);
+}
+
+th {
+  font-size: 30px;
+  color: black;
+  font-weight: bold;
+}
+
+.transcationDescription {
+  text-align: left;
+  padding-left: 50px;
+}
+
+.App {
+  text-align: center;
+  padding-top: 2em;
+  padding-bottom: 2em;
+  padding-left: 4vw;
+  padding-right: 4vw;
+}
